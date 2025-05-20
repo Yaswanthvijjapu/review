@@ -9,6 +9,7 @@ function Home() {
         Write, review, and improve your code with our AI-powered code review tool. Paste your code, get instant feedback, and enhance your programming skills.
       </p>
       <Link to="/review">
+
         <button className="start-button">
           Start Reviewing Code
         </button>
