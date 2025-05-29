@@ -35,7 +35,7 @@ int main() {
 
   async function reviewCode() {
     try {
-      const response = await axios.post('http://localhost:3000/ai/get-review', { code });
+      const response = await axios.post('https://review-mu-neon.vercel.app/ai/get-review', { code });
       setReview(response.data);
     } catch (error) {
       console.error('Error reviewing code:', error);
